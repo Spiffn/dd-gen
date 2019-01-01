@@ -1,0 +1,24 @@
+{
+  "gamesList": [
+    {
+      "id": 1,
+      "name": "Game1",
+      "dungeonMaster": "Lawrence",
+      "players": [
+        "Timothy",
+        "James"
+        ],
+      "description": "Good game indeed"
+    },
+    {
+      "id": 2,
+      "name": "Game2",
+      "dungeonMaster": "Bob",
+      "players": [
+        "Alice",
+        "Charles"
+        ],
+      "description": "Sucks"
+    }
+  ]
+}
