@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/views/Home.vue';
 import CharGen from '@/views/CharGen.vue';
+import Game from '@/views/Game.vue';
 
 Vue.use(Router);
 
@@ -26,6 +27,11 @@ export default new Router({
       path: '/generator',
       name: 'generator',
       component: CharGen,
+    },
+    {
+      path: '/game/:id',
+      name: 'game',
+      component: Game,
     },
   ],
 });
